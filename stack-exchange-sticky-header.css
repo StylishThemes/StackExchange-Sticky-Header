@@ -1,0 +1,16 @@
+/*! StackExchange Sticky Header v1.0.0 (2017-02-08) *//*
+ * https://github.com/StylishThemes/StackExchange-Sticky-Header
+ * https://userstyles.org/styles/136521
+ * License: https://creativecommons.org/licenses/by-sa/4.0/
+ */
+@-moz-document domain("stackoverflow.com"), domain("stackexchange.com"),
+domain("serverfault.com"), domain("superuser.com"), domain("stackapps.com"),
+domain("mathoverflow.net"), domain("askubuntu.com")  {
+  .topbar {
+    position: fixed;
+    z-index: 250;
+  }
+  .container {
+    padding-top: 34px;
+  }
+}
