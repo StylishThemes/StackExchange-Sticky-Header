@@ -13,4 +13,7 @@ domain("mathoverflow.net"), domain("askubuntu.com")  {
   .container {
     padding-top: 34px;
   }
+  .review-bar.sticky {
+    top: 34px !important;
+  }
 }
