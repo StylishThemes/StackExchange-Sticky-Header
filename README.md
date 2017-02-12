@@ -10,10 +10,13 @@
 
 ## Changelog
 
-### Version 1.0.1 (2/12/2017)
+### Version 1.0.1 & 1.0.2 (2/12/2017)
 
-* Move sticky review bar below header.
+* Documentation: Move sticky review bar below header.
+* Stack Overflow: Move sticky review bar below header.
 * Meta: add package.json
+
+
 
 ### Version 1.0.0 (2/8/2017)
 
