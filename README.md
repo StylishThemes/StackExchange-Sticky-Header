@@ -2,7 +2,7 @@
 
 - Applies to all StackExchange sites.
 - Install from [userstyles.org](https://userstyles.org/styles/136521).
-- Stylus is available for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne).
+- Stylus is available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) and [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne).
 - Stylish is available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/2108/), [Chrome](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe) or [Opera](https://addons.opera.com/en/extensions/details/stylish-for-opera/) and [Firefox Mobile](https://addons.mozilla.org/en-US/firefox/addon/2108/).
 
 ## Preview
@@ -14,9 +14,7 @@
 
 * Documentation: Move sticky review bar below header.
 * Stack Overflow: Move sticky review bar below header.
-* Meta: add package.json
-
-
+* Meta: add package.json.
 
 ### Version 1.0.0 (2/8/2017)
 
