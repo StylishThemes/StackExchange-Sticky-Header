@@ -18,3 +18,14 @@ domain("mathoverflow.net"), domain("askubuntu.com")  {
     margin-top: 0 !important;
   }
 }
+
+/* SO now has a built-in sticky header */
+@-moz-document domain("stackoverflow.com") {
+  .container {
+    padding-top: 0 !important;
+  }
+  .review-bar[style*="position: fixed"], .review-bar {
+    top: 60px !important;
+    margin-top: 0 !important;
+  }
+}
