@@ -10,6 +10,14 @@
 
 ## Changelog
 
+### Version 1.0.3 (9/20/2017)
+
+* Global: Add alternate top bar class.
+* SO: Adjust for build-in sticky header.
+* Readme:
+  * Add Stylus Firefox addon link.
+  * Add Stylus for Opera.
+
 ### Version 1.0.1 & 1.0.2 (2/12/2017)
 
 * Documentation: Move sticky review bar below header.
