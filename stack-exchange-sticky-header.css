@@ -6,7 +6,7 @@ domain("mathoverflow.net"), domain("askubuntu.com")  {
    * https://userstyles.org/styles/136521
    * License: https://creativecommons.org/licenses/by-sa/4.0/
    */
-  .topbar {
+  .topbar, .top-bar {
     position: fixed !important;
     z-index: 250 !important;
   }
