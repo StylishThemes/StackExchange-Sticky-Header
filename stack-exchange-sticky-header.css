@@ -8,7 +8,7 @@ domain("mathoverflow.net"), domain("askubuntu.com") {
    */
   .topbar, .top-bar {
     position: fixed !important;
-    z-index: 250 !important;
+    z-index: 1050 !important;
   }
   .container {
     padding-top: 34px !important;
