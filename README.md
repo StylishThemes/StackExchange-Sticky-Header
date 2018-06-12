@@ -7,23 +7,3 @@
 
 ## Preview
 ![SE-sticky-header](SE-sticky-header.png)
-
-## Changelog
-
-### Version 1.0.3 (9/20/2017)
-
-* Global: Add alternate top bar class.
-* SO: Adjust for build-in sticky header.
-* Readme:
-  * Add Stylus Firefox addon link.
-  * Add Stylus for Opera.
-
-### Version 1.0.1 & 1.0.2 (2/12/2017)
-
-* Documentation: Move sticky review bar below header.
-* Stack Overflow: Move sticky review bar below header.
-* Meta: add package.json.
-
-### Version 1.0.0 (2/8/2017)
-
-* Initial commit (available on userstyles.org since Dec 17, 2016).
