@@ -1,11 +1,18 @@
+/* ==UserStyle==
+@name         Stack Exchange Sticky Header
+@namespace    StylishThemes
+@version      1.0.4
+@description  Sticky Headers for all of Stack Exchange
+@author       StylishThemes
+@homepageURL  https://github.com/StylishThemes/StackExchange-Sticky-Header
+@supportURL   https://github.com/StylishThemes/StackExchange-Sticky-Header/issues
+@license      CC-BY-SA-4.0
+@preprocessor uso
+==/UserStyle== */
+
 @-moz-document domain("stackoverflow.com"), domain("stackexchange.com"),
 domain("serverfault.com"), domain("superuser.com"), domain("stackapps.com"),
 domain("mathoverflow.net"), domain("askubuntu.com") {
-  /*! StackExchange Sticky Header v1.0.4 (2018-06-12) *//*
-   * https://github.com/StylishThemes/StackExchange-Sticky-Header
-   * https://userstyles.org/styles/136521
-   * License: https://creativecommons.org/licenses/by-sa/4.0/
-   */
   .topbar, .top-bar {
     position: fixed !important;
     z-index: 1050 !important;
