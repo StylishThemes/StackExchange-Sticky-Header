@@ -1,10 +1,12 @@
 {
   "name": "stackexchange-sticky-header",
+  "title": "Stack Exchange Sticky Header",
   "version": "1.0.5",
-  "description": "StackExchange Sticky Header",
+  "description": "Stack Exchange sticky header everywhere",
   "license": "CC-BY-SA-4.0",
   "repository": "https://github.com/StylishThemes/StackExchange-Sticky-Header",
-  "homepage": "https://userstyles.org/styles/136521/stackexchange-sticky-header",
+  "homepage": "https://github.com/StylishThemes/StackExchange-Sticky-Header",
+  "main": "stack-exchange-sticky-header.user.css",
   "devDependencies": {
     "eslint": "^5.3.0",
     "eslint-config-silverwind": "^2.0.3",
