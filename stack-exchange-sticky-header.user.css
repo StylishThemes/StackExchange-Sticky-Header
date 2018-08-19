@@ -9,7 +9,6 @@
 @license      CC-BY-SA-4.0
 @preprocessor uso
 ==/UserStyle== */
-
 @-moz-document domain("stackoverflow.com"), domain("stackexchange.com"),
 domain("serverfault.com"), domain("superuser.com"), domain("stackapps.com"),
 domain("mathoverflow.net"), domain("askubuntu.com") {
@@ -17,24 +16,19 @@ domain("mathoverflow.net"), domain("askubuntu.com") {
     position: fixed !important;
     z-index: 1050 !important;
   }
-
   .container {
     padding-top: 34px !important;
   }
-
   .review-bar.sticky, .review-bar {
     top: 34px !important;
     margin-top: 0 !important;
   }
 }
-
 /* SO now has a built-in sticky header */
-
 @-moz-document domain("stackoverflow.com") {
   .container {
     padding-top: 0 !important;
   }
-
   .review-bar[style*="position: fixed"], .review-bar {
     top: 60px !important;
     margin-top: 0 !important;
