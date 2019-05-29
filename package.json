@@ -7,15 +7,17 @@
   "repository": "https://github.com/StylishThemes/StackExchange-Sticky-Header",
   "homepage": "https://github.com/StylishThemes/StackExchange-Sticky-Header",
   "main": "stack-exchange-sticky-header.user.css",
+  "engines": {
+    "node": ">=10"
+  },
   "devDependencies": {
-    "eslint": "^5.15.3",
-    "eslint-config-silverwind": "^2.1.0",
-    "fs-extra": "^7.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-silverwind": "^3.0.2",
     "perfectionist": "^2.4.0",
-    "semver": "^6.0.0",
-    "stylelint": "^9.10.1",
-    "stylelint-config-standard": "^18.2.0",
-    "updates": "^7.2.1"
+    "semver": "^6.1.1",
+    "stylelint": "^10.0.1",
+    "stylelint-config-standard": "^18.3.0",
+    "updates": "^8.0.3"
   },
   "scripts": {
     "authors": "bash tools/authors",
@@ -26,7 +28,7 @@
     "minor": "node tools/bump-version.js minor && git add . && npm version -f minor",
     "patch": "node tools/bump-version.js patch && git add . && npm version -f patch",
     "perfectionist": "perfectionist stack-exchange-sticky-header.user.css stack-exchange-sticky-header.user.css --indentSize 2 --maxAtRuleLength 250",
-    "stylelint": "stylelint --silent --color -- stack-exchange-sticky-header.user.css",
+    "stylelint": "stylelint --color -- stack-exchange-sticky-header.user.css",
     "test": "npm run eslint && npm run stylelint",
     "update": "updates -cu && npm install"
   }
